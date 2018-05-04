@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddressActivity">
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newEmail"
+        android:layout_alignParentTop="true"
+        android:textSize="24sp"
+        android:layout_marginLeft="125dp"/>
+
+    <EditText
+        android:id="@+id/visitWho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/visitWho"
+        android:inputType="text"
+        android:layout_below="@+id/text4"
+        android:layout_marginLeft="20dp"/>
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitWho">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/state"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"/>
+
+    </GridLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/starred"
+        android:layout_below="@+id/grid"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/addToList"
+        android:layout_below="@+id/checkbox4"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/cancel4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_below="@+id/button4"
+        android:layout_marginLeft="125dp"/>
+
+</RelativeLayout>

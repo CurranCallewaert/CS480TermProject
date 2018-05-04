@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">ToDoList</string>
+    <string name="app_name">ToDoList</string>
+    <string name="callWho">Call Who?</string>
+    <string name="enterPhone">Enter their phone number</string>
+    <string name="starred">Starred</string>
+    <string name="addToList">Add to List</string>
+    <string name="cancel"> Cancel </string>
+    <string name="newCall">New Call Item</string>
+    <string name="newText">New Text Item</string>
+    <string name="textWho">Text Who?</string>
+    <string name="emailWho"> Email Who?</string>
+    <string name="newEmail">New Email Item</string>
+    <string name="emailAddress">Enter their email address</string>
+    <string name ="newAddress">New Address Item</string>
+    <string name ="visitWho">Visit Who?</string>
+    <string name="address">Street address</string>
+    <string name ="city">City</string>
+    <string name ="state">State</string>
+
+</resources>

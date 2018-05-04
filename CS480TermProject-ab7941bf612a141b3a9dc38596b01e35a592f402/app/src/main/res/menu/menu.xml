@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/execute"
+          android:title="Execute"
+          android:showAsAction="always"
+    />
+     <item android:id="@+id/delete"
+          android:title="Delete"
+          android:showAsAction="always"
+    />
+    <item android:id="@+id/notify"
+        android:title="notify"
+        android:showAsAction="always"/>
+
+       <item android:id="@+id/save"
+          android:title="Save"
+          android:showAsAction="never"
+    />
+    <item android:id="@+id/close"
+          android:title="Close"
+          android:showAsAction="never"
+    />
+</menu>

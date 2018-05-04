@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallActivity">
+
+        <TextView android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:text="@string/newCall"
+            android:layout_alignParentTop="true"
+            android:textSize="24sp"
+            android:layout_marginLeft="125dp"/>
+
+    <EditText
+        android:id="@+id/callWho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/callWho"
+        android:inputType="text"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterPhone"
+        android:inputType="phone"
+        android:layout_below="@+id/callWho"
+        android:layout_marginLeft="20dp"/>
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/starred"
+        android:layout_below="@+id/number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/addToList"
+        android:layout_below="@+id/checkbox1"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="125dp"/>
+
+</RelativeLayout>
